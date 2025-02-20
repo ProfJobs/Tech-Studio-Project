@@ -3,7 +3,7 @@ import React from "react";
 
 const Jobs = () => {
   return (
-    <section className="mx-auto max-w-[1240px] flex items-center h-full px-[1rem] xl:px-0 min-h-[678px] pb-[50px] pt-[50px]">
+    <section className="mx-auto max-w-[1240px] flex flex-col items-center h-full px-[1rem] xl:px-0 min-h-[678px] pb-[50px] pt-[50px]">
       <div className="flex items-center">
         <div className="relative flex-1 pr-10">
           <Image
@@ -28,6 +28,15 @@ const Jobs = () => {
             popular frameworks such as React, Vue, or Angular.
           </p>
         </div>
+      </div>
+      <div className="relative w-full h-full flex-1 pr-10">
+        <Image
+          alt="Jobs"
+          width={300}
+          height={300}
+          src="/images/whatsapp.jpeg"
+          className="object-cover w-full h-full"
+        />
       </div>
     </section>
   );
