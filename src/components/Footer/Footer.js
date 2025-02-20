@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 const Footer = () => {
   return (
     <div className="bg-primary">
-      <footer className="max-w-[1240px] mx-auto py-16 text-white">
+      <footer className="max-w-[1240px] mx-auto px-5 py-16 text-white">
         <section className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-0">
           <div className="flex flex-col">
             <a className="" data-testid="logo" href="/">
